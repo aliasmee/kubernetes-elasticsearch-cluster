@@ -64,7 +64,7 @@ One can change this in the deployment descriptors available in this repository.
 #### Create elasticsearch cluster 
 1. create es client service ，Responsible for LB backend 9200 port
 
-```kubectl create -f es-svc-qcloud-lb.yaml``
+```kubectl create -f es-svc-qcloud-lb.yaml```
 
 2. create es discovery service ，Responsible for publishing es service discovery 9300 port
 
